@@ -1,4 +1,5 @@
 export default {
   caption: '',
-  'назв-caption': ''
+  'назв-caption': '',
+  'этаж-caption': ''
 };

@@ -29,7 +29,8 @@ namespace IIS.Proba_11
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("НомерДомE", new string[] {
-            "Назв"})]
+            "Назв",
+            "Этаж"})]
     [View("НомерДомL", new string[] {
             "Назв",
             "Этаж.Номер"})]

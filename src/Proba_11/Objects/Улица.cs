@@ -29,7 +29,8 @@ namespace IIS.Proba_11
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("УлицаE", new string[] {
-            "Назв as \'Назв\'"})]
+            "Назв as \'Назв\'",
+            "НомерДом.Назв"})]
     [View("УлицаL", new string[] {
             "Назв as \'Назв\'",
             "НомерДом.Назв"})]

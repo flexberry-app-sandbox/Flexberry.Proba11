@@ -34,4 +34,14 @@
     }}
     {{flexberry-validationmessage error=(v-get validationModel "назв" "message")}}
   </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.номерДом.назв
+      class=(if (v-get validationModel.номерДом "назв" "isInvalid") "error")
+      label=(t "forms.i-i-s-proba-11-улица-e.номерДом.назв-caption")
+      data-test-i-i-s-proba-11-улица-e-номерДом-назв=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.номерДом "назв" "message")}}
+  </div>
 </form>
