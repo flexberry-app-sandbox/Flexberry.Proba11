@@ -107,12 +107,12 @@ $.extend(true, translations, {
             caption: 'НомерДомL',
             title: ''
           },
-          'i-i-s-proba-11-этаж-l': {
-            caption: 'ЭтажL',
-            title: ''
-          },
           'i-i-s-proba-11-квартира-l': {
             caption: 'Квартира',
+            title: ''
+          },
+          'i-i-s-proba-11-этаж-l': {
+            caption: 'ЭтажL',
             title: ''
           }
         }

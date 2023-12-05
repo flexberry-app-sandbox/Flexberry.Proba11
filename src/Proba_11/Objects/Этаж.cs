@@ -29,13 +29,12 @@ namespace IIS.Proba_11
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ЭтажE", new string[] {
-            "Номер",
-            "Квартира",
-            "Квартира.НомерКв"})]
+            "Номер as \'Номер\'",
+            "Квартира as \'Квартира\'",
+            "Квартира.НомерКв as \'НомерКв\'"})]
     [View("ЭтажL", new string[] {
-            "Номер",
-            "Квартира",
-            "Квартира.НомерКв"})]
+            "Номер as \'Номер\'",
+            "Квартира.НомерКв as \'НомерКв\'"})]
     public class Этаж : ICSSoft.STORMNET.DataObject
     {
         

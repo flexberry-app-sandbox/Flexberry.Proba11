@@ -27,16 +27,16 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ЭтажE', 'i-i-s-proba-11-этаж', {
-    номер: attr('', { index: 0 }),
-    квартира: belongsTo('i-i-s-proba-11-квартира', '', {
-      номерКв: attr('', { index: 2 })
+    номер: attr('Номер', { index: 0 }),
+    квартира: belongsTo('i-i-s-proba-11-квартира', 'Квартира', {
+      номерКв: attr('НомерКв', { index: 2 })
     }, { index: 1 })
   });
 
   modelClass.defineProjection('ЭтажL', 'i-i-s-proba-11-этаж', {
-    номер: attr('', { index: 0 }),
-    квартира: belongsTo('i-i-s-proba-11-квартира', '', {
-      номерКв: attr('', { index: 2 })
-    }, { index: 1 })
+    номер: attr('Номер', { index: 0 }),
+    квартира: belongsTo('i-i-s-proba-11-квартира', 'НомерКв', {
+      номерКв: attr('НомерКв', { index: 1 })
+    }, { index: -1, hidden: true })
   });
 };
