@@ -33,7 +33,7 @@
       "attrs": [
         {
           "name": "номер",
-          "caption": "Номер",
+          "caption": "Назв",
           "hidden": false,
           "index": 0
         }
@@ -48,7 +48,7 @@
           "attrs": [
             {
               "name": "номерКв",
-              "caption": "НомерКв",
+              "caption": "Назв",
               "hidden": false,
               "index": 2
             }

@@ -29,9 +29,9 @@ namespace IIS.Proba_11
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ЭтажE", new string[] {
-            "Номер as \'Номер\'",
+            "Номер as \'Назв\'",
             "Квартира as \'Квартира\'",
-            "Квартира.НомерКв as \'НомерКв\'"})]
+            "Квартира.НомерКв as \'Назв\'"})]
     [View("ЭтажL", new string[] {
             "Номер as \'Назв\'",
             "Квартира.НомерКв as \'Назв\'"})]
