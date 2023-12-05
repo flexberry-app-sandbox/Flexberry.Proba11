@@ -22,31 +22,25 @@ export default Controller.extend({
             link: 'i-i-s-proba-11-город-l',
             caption: i18n.t('forms.application.sitemap.proba-11.i-i-s-proba-11-город-l.caption'),
             title: i18n.t('forms.application.sitemap.proba-11.i-i-s-proba-11-город-l.title'),
-            icon: 'suitcase',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-proba-11-улица-l',
             caption: i18n.t('forms.application.sitemap.proba-11.i-i-s-proba-11-улица-l.caption'),
             title: i18n.t('forms.application.sitemap.proba-11.i-i-s-proba-11-улица-l.title'),
-            icon: 'paperclip',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-proba-11-номер-дом-l',
             caption: i18n.t('forms.application.sitemap.proba-11.i-i-s-proba-11-номер-дом-l.caption'),
             title: i18n.t('forms.application.sitemap.proba-11.i-i-s-proba-11-номер-дом-l.title'),
-            icon: 'suitcase',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-proba-11-этаж-l',
             caption: i18n.t('forms.application.sitemap.proba-11.i-i-s-proba-11-этаж-l.caption'),
             title: i18n.t('forms.application.sitemap.proba-11.i-i-s-proba-11-этаж-l.title'),
-            icon: 'tags',
-            children: null
-          }, {
-            link: 'i-i-s-proba-11-квартира-l',
-            caption: i18n.t('forms.application.sitemap.proba-11.i-i-s-proba-11-квартира-l.caption'),
-            title: i18n.t('forms.application.sitemap.proba-11.i-i-s-proba-11-квартира-l.title'),
-            icon: 'table',
+            icon: 'briefcase',
             children: null
           }]
         }
