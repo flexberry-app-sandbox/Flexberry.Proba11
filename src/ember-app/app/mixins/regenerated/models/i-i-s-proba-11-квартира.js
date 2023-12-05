@@ -19,10 +19,10 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('КвартираE', 'i-i-s-proba-11-квартира', {
-    номерКв: attr('Название', { index: 0 })
+    номерКв: attr('Назв', { index: 0 })
   });
 
   modelClass.defineProjection('КвартираL', 'i-i-s-proba-11-квартира', {
-    номерКв: attr('Название', { index: 0 })
+    номерКв: attr('Назв', { index: 0 })
   });
 };

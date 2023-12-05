@@ -29,9 +29,9 @@ namespace IIS.Proba_11
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("КвартираE", new string[] {
-            "НомерКв as \'Название\'"})]
+            "НомерКв as \'Назв\'"})]
     [View("КвартираL", new string[] {
-            "НомерКв as \'Название\'"})]
+            "НомерКв as \'Назв\'"})]
     public class Квартира : ICSSoft.STORMNET.DataObject
     {
         

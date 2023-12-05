@@ -25,7 +25,7 @@
       "attrs": [
         {
           "name": "номерКв",
-          "caption": "Название",
+          "caption": "Назв",
           "hidden": false,
           "index": 0
         }
@@ -39,7 +39,7 @@
       "attrs": [
         {
           "name": "номерКв",
-          "caption": "Название",
+          "caption": "Назв",
           "hidden": false,
           "index": 0
         }

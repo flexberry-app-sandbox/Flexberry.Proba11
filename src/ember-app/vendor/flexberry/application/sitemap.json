@@ -30,16 +30,16 @@
           "children": null
         },
         {
-          "link": "i-i-s-proba-11-квартира-l",
+          "link": "i-i-s-proba-11-этаж-l",
           "menuName": null,
-          "caption": "Квартира",
+          "caption": "Этаж",
           "title": "",
           "children": null
         },
         {
-          "link": "i-i-s-proba-11-этаж-l",
+          "link": "i-i-s-proba-11-квартира-l",
           "menuName": null,
-          "caption": "Этаж",
+          "caption": "Квартира",
           "title": "",
           "children": null
         }
