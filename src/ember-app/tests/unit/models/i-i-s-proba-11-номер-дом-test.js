@@ -4,6 +4,7 @@ moduleForModel('i-i-s-proba-11-номер-дом', 'Unit | Model | i-i-s-proba-1
   // Specify the other units that are required for this test.
   needs: [
     'model:i-i-s-proba-11-город',
+    'model:i-i-s-proba-11-квартира',
     'model:i-i-s-proba-11-номер-дом',
     'model:i-i-s-proba-11-улица',
     'model:i-i-s-proba-11-этаж',

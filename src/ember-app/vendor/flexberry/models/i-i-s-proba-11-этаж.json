@@ -16,7 +16,15 @@
       "ordered": false
     }
   ],
-  "belongsTo": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "квартира",
+      "relatedTo": "i-i-s-proba-11-квартира",
+      "inverse": null
+    }
+  ],
   "hasMany": [],
   "projections": [
     {
@@ -30,7 +38,29 @@
           "index": 0
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Квартира",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номерКв",
+              "caption": "",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "default",
+          "caption": "",
+          "name": "квартира",
+          "relatedTo": "i-i-s-proba-11-квартира",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     },
     {
@@ -44,7 +74,29 @@
           "index": 0
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Квартира",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номерКв",
+              "caption": "",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "default",
+          "caption": "",
+          "name": "квартира",
+          "relatedTo": "i-i-s-proba-11-квартира",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     }
   ],

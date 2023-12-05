@@ -10,6 +10,7 @@ moduleForModel('i-i-s-proba-11-улица', 'Unit | Serializer | i-i-s-proba-11-
     'transform:guid',
 
     'model:i-i-s-proba-11-город',
+    'model:i-i-s-proba-11-квартира',
     'model:i-i-s-proba-11-номер-дом',
     'model:i-i-s-proba-11-улица',
     'model:i-i-s-proba-11-этаж',

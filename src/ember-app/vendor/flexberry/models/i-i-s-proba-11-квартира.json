@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISProba_11Квартира",
+  "modelName": "i-i-s-proba-11-квартира",
+  "className": "Квартира",
+  "nameSpace": "IIS.Proba_11",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерКв",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КвартираE",
+      "modelName": "i-i-s-proba-11-квартира",
+      "attrs": [
+        {
+          "name": "номерКв",
+          "caption": "",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КвартираL",
+      "modelName": "i-i-s-proba-11-квартира",
+      "attrs": [
+        {
+          "name": "номерКв",
+          "caption": "",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

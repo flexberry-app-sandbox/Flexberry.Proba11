@@ -35,11 +35,22 @@ CREATE TABLE [Улица] (
 	 PRIMARY KEY ([primaryKey]))
 
 
+CREATE TABLE [Квартира] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [НомерКв] VARCHAR(255)  NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
 CREATE TABLE [Этаж] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
 	 [Номер] VARCHAR(255)  NULL,
+
+	 [Квартира] UNIQUEIDENTIFIER  NOT NULL,
 
 	 PRIMARY KEY ([primaryKey]))
 

@@ -29,13 +29,19 @@ namespace IIS.Proba_11
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ЭтажE", new string[] {
-            "Номер"})]
+            "Номер",
+            "Квартира",
+            "Квартира.НомерКв"})]
     [View("ЭтажL", new string[] {
-            "Номер"})]
+            "Номер",
+            "Квартира",
+            "Квартира.НомерКв"})]
     public class Этаж : ICSSoft.STORMNET.DataObject
     {
         
         private string fНомер;
+        
+        private IIS.Proba_11.Квартира fКвартира;
         
         // *** Start programmer edit section *** (Этаж CustomMembers)
 
@@ -71,6 +77,40 @@ namespace IIS.Proba_11
                 // *** Start programmer edit section *** (Этаж.Номер Set end)
 
                 // *** End programmer edit section *** (Этаж.Номер Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Этаж.
+        /// </summary>
+        // *** Start programmer edit section *** (Этаж.Квартира CustomAttributes)
+
+        // *** End programmer edit section *** (Этаж.Квартира CustomAttributes)
+        [PropertyStorage(new string[] {
+                "Квартира"})]
+        [NotNull()]
+        public virtual IIS.Proba_11.Квартира Квартира
+        {
+            get
+            {
+                // *** Start programmer edit section *** (Этаж.Квартира Get start)
+
+                // *** End programmer edit section *** (Этаж.Квартира Get start)
+                IIS.Proba_11.Квартира result = this.fКвартира;
+                // *** Start programmer edit section *** (Этаж.Квартира Get end)
+
+                // *** End programmer edit section *** (Этаж.Квартира Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (Этаж.Квартира Set start)
+
+                // *** End programmer edit section *** (Этаж.Квартира Set start)
+                this.fКвартира = value;
+                // *** Start programmer edit section *** (Этаж.Квартира Set end)
+
+                // *** End programmer edit section *** (Этаж.Квартира Set end)
             }
         }
         

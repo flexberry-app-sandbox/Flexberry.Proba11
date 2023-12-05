@@ -5,7 +5,8 @@ import { validator } from 'ember-cp-validations';
 import { attr, belongsTo, hasMany } from 'ember-flexberry-data/utils/attributes';
 
 export let Model = Mixin.create({
-  номер: DS.attr('string')
+  номер: DS.attr('string'),
+  квартира: DS.belongsTo('i-i-s-proba-11-квартира', { inverse: null, async: false })
 });
 
 export let ValidationRules = {
@@ -15,14 +16,27 @@ export let ValidationRules = {
       validator('ds-error'),
     ],
   },
+  квартира: {
+    descriptionKey: 'models.i-i-s-proba-11-этаж.validations.квартира.__caption__',
+    validators: [
+      validator('ds-error'),
+      validator('presence', true),
+    ],
+  },
 };
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ЭтажE', 'i-i-s-proba-11-этаж', {
-    номер: attr('', { index: 0 })
+    номер: attr('', { index: 0 }),
+    квартира: belongsTo('i-i-s-proba-11-квартира', '', {
+      номерКв: attr('', { index: 2 })
+    }, { index: 1 })
   });
 
   modelClass.defineProjection('ЭтажL', 'i-i-s-proba-11-этаж', {
-    номер: attr('', { index: 0 })
+    номер: attr('', { index: 0 }),
+    квартира: belongsTo('i-i-s-proba-11-квартира', '', {
+      номерКв: attr('', { index: 2 })
+    }, { index: 1 })
   });
 };

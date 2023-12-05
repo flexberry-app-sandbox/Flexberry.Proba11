@@ -41,12 +41,25 @@ CREATE TABLE "Улица"
 ) ;
 
 
+CREATE TABLE "Квартира"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"НомерКв" NVARCHAR2(255) NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
 CREATE TABLE "Этаж"
 (
 
 	"primaryKey" RAW(16) NOT NULL,
 
 	"Номер" NVARCHAR2(255) NULL,
+
+	"Квартира" RAW(16) NOT NULL,
 
 	 PRIMARY KEY ("primaryKey")
 ) ;
@@ -264,6 +277,11 @@ ALTER TABLE "Улица"
 	ADD CONSTRAINT "Улица_FНомерДом_0" FOREIGN KEY ("НомерДом") REFERENCES "НомерДом" ("primaryKey");
 
 CREATE INDEX "Улица_IНомерДом" on "Улица" ("НомерДом");
+
+ALTER TABLE "Этаж"
+	ADD CONSTRAINT "Этаж_FКвартира_0" FOREIGN KEY ("Квартира") REFERENCES "Квартира" ("primaryKey");
+
+CREATE INDEX "Этаж_IКвартира" on "Этаж" ("Квартира");
 
 ALTER TABLE "STORMWEBSEARCH"
 	ADD CONSTRAINT "STORMWEBSEARCH_FSTORMFILT_6521" FOREIGN KEY ("FilterSetting_m0") REFERENCES "STORMFILTERSETTING" ("primaryKey");

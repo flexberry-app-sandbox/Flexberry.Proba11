@@ -34,4 +34,30 @@
     }}
     {{flexberry-validationmessage error=(v-get validationModel "номер" "message")}}
   </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-proba-11-этаж-e.квартира-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.квартира
+      relationName="квартира"
+      projection="КвартираL"
+      title=(t "forms.i-i-s-proba-11-этаж-e.квартира-caption")
+      readonly=readonly
+      componentName="квартираLookup"
+      class=(if (v-get validationModel "квартира" "isInvalid") "error")
+      data-test-i-i-s-proba-11-этаж-e-квартира=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "квартира" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.квартира.номерКв
+      class=(if (v-get validationModel.квартира "номерКв" "isInvalid") "error")
+      label=(t "forms.i-i-s-proba-11-этаж-e.квартира.номерКв-caption")
+      data-test-i-i-s-proba-11-этаж-e-квартира-номерКв=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.квартира "номерКв" "message")}}
+  </div>
 </form>

@@ -11,6 +11,11 @@ Router.map(function () {
   { path: 'i-i-s-proba-11-город-e/:id' });
   this.route('i-i-s-proba-11-город-e.new',
   { path: 'i-i-s-proba-11-город-e/new' });
+  this.route('i-i-s-proba-11-квартира-l');
+  this.route('i-i-s-proba-11-квартира-e',
+  { path: 'i-i-s-proba-11-квартира-e/:id' });
+  this.route('i-i-s-proba-11-квартира-e.new',
+  { path: 'i-i-s-proba-11-квартира-e/new' });
   this.route('i-i-s-proba-11-номер-дом-l');
   this.route('i-i-s-proba-11-номер-дом-e',
   { path: 'i-i-s-proba-11-номер-дом-e/:id' });
