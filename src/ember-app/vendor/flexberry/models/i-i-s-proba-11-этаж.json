@@ -69,7 +69,7 @@
       "attrs": [
         {
           "name": "номер",
-          "caption": "Номер",
+          "caption": "Назв",
           "hidden": false,
           "index": 0
         }
@@ -84,14 +84,14 @@
           "attrs": [
             {
               "name": "номерКв",
-              "caption": "НомерКв",
+              "caption": "Назв",
               "hidden": false,
               "index": 1
             }
           ],
           "index": -1,
           "type": "default",
-          "caption": "НомерКв",
+          "caption": "Назв",
           "name": "квартира",
           "relatedTo": "i-i-s-proba-11-квартира",
           "inverse": null

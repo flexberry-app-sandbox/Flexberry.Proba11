@@ -34,9 +34,9 @@ export let defineProjections = function (modelClass) {
   });
 
   modelClass.defineProjection('ЭтажL', 'i-i-s-proba-11-этаж', {
-    номер: attr('Номер', { index: 0 }),
-    квартира: belongsTo('i-i-s-proba-11-квартира', 'НомерКв', {
-      номерКв: attr('НомерКв', { index: 1 })
+    номер: attr('Назв', { index: 0 }),
+    квартира: belongsTo('i-i-s-proba-11-квартира', 'Назв', {
+      номерКв: attr('Назв', { index: 1 })
     }, { index: -1, hidden: true })
   });
 };
