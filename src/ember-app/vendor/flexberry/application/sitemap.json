@@ -25,14 +25,14 @@
         {
           "link": "i-i-s-proba-11-номер-дом-l",
           "menuName": null,
-          "caption": "НомерДомL",
+          "caption": "НомерДом",
           "title": "",
           "children": null
         },
         {
           "link": "i-i-s-proba-11-этаж-l",
           "menuName": null,
-          "caption": "ЭтажL",
+          "caption": "Этаж",
           "title": "",
           "children": null
         }
