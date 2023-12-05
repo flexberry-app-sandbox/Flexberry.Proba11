@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "",
+  "name": "IISProba_11НомерДомE",
+  "className": "НомерДомE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proba-11-номер-дом",
+      "modelProjection": "НомерДомE"
+    }
+  ]
+}

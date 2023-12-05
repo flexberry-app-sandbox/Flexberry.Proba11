@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Улица",
+  "name": "IISProba_11УлицаE",
+  "className": "УлицаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proba-11-улица",
+      "modelProjection": "УлицаE"
+    }
+  ]
+}

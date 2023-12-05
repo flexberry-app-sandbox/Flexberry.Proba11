@@ -1,0 +1,36 @@
+﻿{
+  "applicationCaption": "Proba_11",
+  "applicationTitle": "Proba_11",
+  "items": [
+    {
+      "link": null,
+      "menuName": "proba-11",
+      "caption": "Proba_11",
+      "title": "Proba_11",
+      "children": [
+        {
+          "link": "i-i-s-proba-11-город-l",
+          "menuName": null,
+          "caption": "Город",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proba-11-улица-l",
+          "menuName": null,
+          "caption": "Улица",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proba-11-номер-дом-l",
+          "menuName": null,
+          "caption": "НомерДомL",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

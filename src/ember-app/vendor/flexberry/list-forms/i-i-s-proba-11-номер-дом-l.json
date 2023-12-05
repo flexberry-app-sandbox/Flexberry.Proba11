@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proba-11-номер-дом-e",
+  "editForm": "i-i-s-proba-11-номер-дом-e",
+  "external": false,
+  "caption": "",
+  "name": "IISProba_11НомерДомL",
+  "className": "НомерДомL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proba-11-номер-дом",
+      "modelProjection": "НомерДомL"
+    }
+  ]
+}
