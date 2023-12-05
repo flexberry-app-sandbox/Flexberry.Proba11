@@ -31,7 +31,8 @@ namespace IIS.Proba_11
     [View("НомерДомE", new string[] {
             "Назв"})]
     [View("НомерДомL", new string[] {
-            "Назв"})]
+            "Назв",
+            "Этаж.Номер"})]
     public class НомерДом : ICSSoft.STORMNET.DataObject
     {
         

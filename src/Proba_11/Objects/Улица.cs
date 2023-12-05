@@ -31,7 +31,8 @@ namespace IIS.Proba_11
     [View("УлицаE", new string[] {
             "Назв as \'Назв\'"})]
     [View("УлицаL", new string[] {
-            "Назв as \'Назв\'"})]
+            "Назв as \'Назв\'",
+            "НомерДом.Назв"})]
     public class Улица : ICSSoft.STORMNET.DataObject
     {
         

@@ -8,6 +8,12 @@ export default {
     НомерДомL: {
       назв: {
         __caption__: ''
+      },
+      этаж: {
+        __caption__: '',
+        номер: {
+          __caption__: ''
+        }
       }
     }
   },

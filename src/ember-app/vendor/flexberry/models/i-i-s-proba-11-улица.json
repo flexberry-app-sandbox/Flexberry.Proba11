@@ -52,7 +52,29 @@
           "index": 0
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "НомерДом",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "назв",
+              "caption": "",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "",
+          "name": "номерДом",
+          "relatedTo": "i-i-s-proba-11-номер-дом",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     }
   ],

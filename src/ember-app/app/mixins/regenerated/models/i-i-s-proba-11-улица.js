@@ -31,6 +31,9 @@ export let defineProjections = function (modelClass) {
   });
 
   modelClass.defineProjection('УлицаL', 'i-i-s-proba-11-улица', {
-    назв: attr('Назв', { index: 0 })
+    назв: attr('Назв', { index: 0 }),
+    номерДом: belongsTo('i-i-s-proba-11-номер-дом', '', {
+      назв: attr('', { index: 1 })
+    }, { index: -1, hidden: true })
   });
 };

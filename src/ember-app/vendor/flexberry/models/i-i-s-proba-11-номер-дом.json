@@ -52,7 +52,29 @@
           "index": 0
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Этаж",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номер",
+              "caption": "",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "",
+          "name": "этаж",
+          "relatedTo": "i-i-s-proba-11-этаж",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     }
   ],
