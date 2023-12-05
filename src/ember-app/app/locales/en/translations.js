@@ -4,12 +4,15 @@ import EmberFlexberryTranslations from 'ember-flexberry/locales/en/translations'
 import IISProba_11ГородLForm from './forms/i-i-s-proba-11-город-l';
 import IISProba_11НомерДомLForm from './forms/i-i-s-proba-11-номер-дом-l';
 import IISProba_11УлицаLForm from './forms/i-i-s-proba-11-улица-l';
+import IISProba_11ЭтажLForm from './forms/i-i-s-proba-11-этаж-l';
 import IISProba_11ГородEForm from './forms/i-i-s-proba-11-город-e';
 import IISProba_11НомерДомEForm from './forms/i-i-s-proba-11-номер-дом-e';
 import IISProba_11УлицаEForm from './forms/i-i-s-proba-11-улица-e';
+import IISProba_11ЭтажEForm from './forms/i-i-s-proba-11-этаж-e';
 import IISProba_11ГородModel from './models/i-i-s-proba-11-город';
 import IISProba_11НомерДомModel from './models/i-i-s-proba-11-номер-дом';
 import IISProba_11УлицаModel from './models/i-i-s-proba-11-улица';
+import IISProba_11ЭтажModel from './models/i-i-s-proba-11-этаж';
 
 const translations = {};
 $.extend(true, translations, EmberFlexberryTranslations);
@@ -18,7 +21,8 @@ $.extend(true, translations, {
   models: {
     'i-i-s-proba-11-город': IISProba_11ГородModel,
     'i-i-s-proba-11-номер-дом': IISProba_11НомерДомModel,
-    'i-i-s-proba-11-улица': IISProba_11УлицаModel
+    'i-i-s-proba-11-улица': IISProba_11УлицаModel,
+    'i-i-s-proba-11-этаж': IISProba_11ЭтажModel
   },
 
   'application-name': 'Proba_11',
@@ -98,6 +102,10 @@ $.extend(true, translations, {
           'i-i-s-proba-11-номер-дом-l': {
             caption: 'НомерДомL',
             title: ''
+          },
+          'i-i-s-proba-11-этаж-l': {
+            caption: 'ЭтажL',
+            title: ''
           }
         }
       }
@@ -114,9 +122,11 @@ $.extend(true, translations, {
     'i-i-s-proba-11-город-l': IISProba_11ГородLForm,
     'i-i-s-proba-11-номер-дом-l': IISProba_11НомерДомLForm,
     'i-i-s-proba-11-улица-l': IISProba_11УлицаLForm,
+    'i-i-s-proba-11-этаж-l': IISProba_11ЭтажLForm,
     'i-i-s-proba-11-город-e': IISProba_11ГородEForm,
     'i-i-s-proba-11-номер-дом-e': IISProba_11НомерДомEForm,
-    'i-i-s-proba-11-улица-e': IISProba_11УлицаEForm
+    'i-i-s-proba-11-улица-e': IISProba_11УлицаEForm,
+    'i-i-s-proba-11-этаж-e': IISProba_11ЭтажEForm
   },
 
 });

@@ -9,6 +9,8 @@ CREATE TABLE "НомерДом"
 
 	"Назв" NVARCHAR2(255) NULL,
 
+	"Этаж" RAW(16) NOT NULL,
+
 	 PRIMARY KEY ("primaryKey")
 ) ;
 
@@ -34,6 +36,17 @@ CREATE TABLE "Улица"
 	"Назв" NVARCHAR2(255) NULL,
 
 	"НомерДом" RAW(16) NOT NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
+CREATE TABLE "Этаж"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"Номер" NVARCHAR2(255) NULL,
 
 	 PRIMARY KEY ("primaryKey")
 ) ;
@@ -236,6 +249,11 @@ CREATE TABLE "ApplicationLog"
 ) ;
 
 
+
+ALTER TABLE "НомерДом"
+	ADD CONSTRAINT "НомерДом_FЭтаж_0" FOREIGN KEY ("Этаж") REFERENCES "Этаж" ("primaryKey");
+
+CREATE INDEX "НомерДом_IЭтаж" on "НомерДом" ("Этаж");
 
 ALTER TABLE "Город"
 	ADD CONSTRAINT "Город_FУлица_0" FOREIGN KEY ("Улица") REFERENCES "Улица" ("primaryKey");

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proba-11-этаж-e",
+  "editForm": "i-i-s-proba-11-этаж-e",
+  "external": false,
+  "caption": "",
+  "name": "IISProba_11ЭтажL",
+  "className": "ЭтажL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proba-11-этаж",
+      "modelProjection": "ЭтажL"
+    }
+  ]
+}

@@ -12,6 +12,7 @@ moduleForModel('i-i-s-proba-11-улица', 'Unit | Serializer | i-i-s-proba-11-
     'model:i-i-s-proba-11-город',
     'model:i-i-s-proba-11-номер-дом',
     'model:i-i-s-proba-11-улица',
+    'model:i-i-s-proba-11-этаж',
     'validator:ds-error',
     'validator:presence',
     'validator:number',

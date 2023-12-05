@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "",
+  "name": "IISProba_11ЭтажE",
+  "className": "ЭтажE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proba-11-этаж",
+      "modelProjection": "ЭтажE"
+    }
+  ]
+}

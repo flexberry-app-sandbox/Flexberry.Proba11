@@ -14,6 +14,9 @@ export default {
   validations: {
     назв: {
       __caption__: 'назв'
+    },
+    этаж: {
+      __caption__: 'этаж'
     }
   }
 };

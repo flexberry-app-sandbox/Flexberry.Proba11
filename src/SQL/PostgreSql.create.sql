@@ -6,6 +6,7 @@
 CREATE TABLE НомерДом (
  primaryKey UUID NOT NULL,
  Назв VARCHAR(255) NULL,
+ Этаж UUID NOT NULL,
  PRIMARY KEY (primaryKey));
 
 
@@ -20,6 +21,12 @@ CREATE TABLE Улица (
  primaryKey UUID NOT NULL,
  Назв VARCHAR(255) NULL,
  НомерДом UUID NOT NULL,
+ PRIMARY KEY (primaryKey));
+
+
+CREATE TABLE Этаж (
+ primaryKey UUID NOT NULL,
+ Номер VARCHAR(255) NULL,
  PRIMARY KEY (primaryKey));
 
 
@@ -126,6 +133,9 @@ CREATE TABLE ApplicationLog (
  PRIMARY KEY (primaryKey));
 
 
+
+ ALTER TABLE НомерДом ADD CONSTRAINT FK36b18a96c5e4cd11e51bf038963ff38e39c6f449 FOREIGN KEY (Этаж) REFERENCES Этаж; 
+CREATE INDEX Index36b18a96c5e4cd11e51bf038963ff38e39c6f449 on НомерДом (Этаж); 
 
  ALTER TABLE Город ADD CONSTRAINT FKd28ab8fec0b6c606ffa67df6fb43e3715310ee2a FOREIGN KEY (Улица) REFERENCES Улица; 
 CREATE INDEX Indexd28ab8fec0b6c606ffa67df6fb43e3715310ee2a on Город (Улица); 

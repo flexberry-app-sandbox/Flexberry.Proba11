@@ -37,6 +37,8 @@ namespace IIS.Proba_11
         
         private string fНазв;
         
+        private IIS.Proba_11.Этаж fЭтаж;
+        
         // *** Start programmer edit section *** (НомерДом CustomMembers)
 
         // *** End programmer edit section *** (НомерДом CustomMembers)
@@ -71,6 +73,40 @@ namespace IIS.Proba_11
                 // *** Start programmer edit section *** (НомерДом.Назв Set end)
 
                 // *** End programmer edit section *** (НомерДом.Назв Set end)
+            }
+        }
+        
+        /// <summary>
+        /// НомерДом.
+        /// </summary>
+        // *** Start programmer edit section *** (НомерДом.Этаж CustomAttributes)
+
+        // *** End programmer edit section *** (НомерДом.Этаж CustomAttributes)
+        [PropertyStorage(new string[] {
+                "Этаж"})]
+        [NotNull()]
+        public virtual IIS.Proba_11.Этаж Этаж
+        {
+            get
+            {
+                // *** Start programmer edit section *** (НомерДом.Этаж Get start)
+
+                // *** End programmer edit section *** (НомерДом.Этаж Get start)
+                IIS.Proba_11.Этаж result = this.fЭтаж;
+                // *** Start programmer edit section *** (НомерДом.Этаж Get end)
+
+                // *** End programmer edit section *** (НомерДом.Этаж Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (НомерДом.Этаж Set start)
+
+                // *** End programmer edit section *** (НомерДом.Этаж Set start)
+                this.fЭтаж = value;
+                // *** Start programmer edit section *** (НомерДом.Этаж Set end)
+
+                // *** End programmer edit section *** (НомерДом.Этаж Set end)
             }
         }
         

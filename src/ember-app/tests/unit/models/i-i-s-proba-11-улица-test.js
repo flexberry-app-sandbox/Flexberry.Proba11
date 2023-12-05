@@ -6,6 +6,7 @@ moduleForModel('i-i-s-proba-11-улица', 'Unit | Model | i-i-s-proba-11-ул�
     'model:i-i-s-proba-11-город',
     'model:i-i-s-proba-11-номер-дом',
     'model:i-i-s-proba-11-улица',
+    'model:i-i-s-proba-11-этаж',
     'validator:ds-error',
     'validator:presence',
     'validator:number',

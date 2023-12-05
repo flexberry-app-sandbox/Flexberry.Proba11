@@ -21,6 +21,11 @@ Router.map(function () {
   { path: 'i-i-s-proba-11-улица-e/:id' });
   this.route('i-i-s-proba-11-улица-e.new',
   { path: 'i-i-s-proba-11-улица-e/new' });
+  this.route('i-i-s-proba-11-этаж-l');
+  this.route('i-i-s-proba-11-этаж-e',
+  { path: 'i-i-s-proba-11-этаж-e/:id' });
+  this.route('i-i-s-proba-11-этаж-e.new',
+  { path: 'i-i-s-proba-11-этаж-e/new' });
 });
 
 export default Router;

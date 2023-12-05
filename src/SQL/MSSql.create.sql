@@ -8,6 +8,8 @@ CREATE TABLE [НомерДом] (
 
 	 [Назв] VARCHAR(255)  NULL,
 
+	 [Этаж] UNIQUEIDENTIFIER  NOT NULL,
+
 	 PRIMARY KEY ([primaryKey]))
 
 
@@ -29,6 +31,15 @@ CREATE TABLE [Улица] (
 	 [Назв] VARCHAR(255)  NULL,
 
 	 [НомерДом] UNIQUEIDENTIFIER  NOT NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
+CREATE TABLE [Этаж] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [Номер] VARCHAR(255)  NULL,
 
 	 PRIMARY KEY ([primaryKey]))
 
